@@ -14,11 +14,8 @@ a {
   text-decoration: none;
   color: unset;
 }
-
-section {
-  &.container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

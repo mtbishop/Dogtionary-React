@@ -3,7 +3,12 @@ import '../style/Footer.scss';
 const Footer = () => {
   return (
     <>
-      <p>Footer</p>
+      <footer className="container footer-container">
+        <h3>
+          The Dogtionary gives you a place to learn about dog breeds and shows
+          you dogs near you in need of a home.
+        </h3>
+      </footer>
     </>
   );
 };
