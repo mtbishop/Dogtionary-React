@@ -1,3 +1,24 @@
-.App {
-  text-align: center;
+/* Base Colors
+Green: #059669
+Blue: #1E3A8A
+*/
+
+// Resets
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: unset;
+}
+
+section {
+  &.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 }

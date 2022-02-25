@@ -3,7 +3,9 @@ import '../style/SearchZip.scss';
 const SearchZip = () => {
   return (
     <>
-      <p>SearchZip</p>
+      <div className="container">
+        <p>SearchZip</p>
+      </div>
     </>
   );
 };
