@@ -9,6 +9,7 @@ const SearchZip = () => {
           <img alt="dog-background" src={ZipSearchBackground} />
           <div className="search-div">
             <p>Enter your zip code to find dogs near you that need a home!</p>
+            <input placeholder="Enter Zip Code" type="search"></input>
           </div>
         </div>
       </section>
